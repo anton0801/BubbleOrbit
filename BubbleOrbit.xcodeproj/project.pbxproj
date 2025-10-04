@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		95E88B232E8ECA7E00278328 /* Bubble Orbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bubble Orbit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95E88B302E8ECA8000278328 /* Bubble OrbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bubble OrbitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95E88B3A2E8ECA8000278328 /* Bubble OrbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bubble OrbitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E88B232E8ECA7E00278328 /* BubbleOrbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleOrbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E88B302E8ECA8000278328 /* BubbleOrbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleOrbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E88B3A2E8ECA8000278328 /* BubbleOrbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleOrbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +43,11 @@
 		95E88B3D2E8ECA8000278328 /* Bubble OrbitUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Bubble OrbitUITests";
+			sourceTree = "<group>";
+		};
+		95E88B4D2E8ECA8B00278328 /* Main */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		95E88B1A2E8ECA7E00278328 = {
 			isa = PBXGroup;
 			children = (
+				95E88B4D2E8ECA8B00278328 /* Main */,
 				95E88B252E8ECA7E00278328 /* Bubble Orbit */,
 				95E88B332E8ECA8000278328 /* Bubble OrbitTests */,
 				95E88B3D2E8ECA8000278328 /* Bubble OrbitUITests */,
@@ -85,9 +91,9 @@
 		95E88B242E8ECA7E00278328 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95E88B232E8ECA7E00278328 /* Bubble Orbit.app */,
-				95E88B302E8ECA8000278328 /* Bubble OrbitTests.xctest */,
-				95E88B3A2E8ECA8000278328 /* Bubble OrbitUITests.xctest */,
+				95E88B232E8ECA7E00278328 /* BubbleOrbit.app */,
+				95E88B302E8ECA8000278328 /* BubbleOrbitTests.xctest */,
+				95E88B3A2E8ECA8000278328 /* BubbleOrbitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95E88B222E8ECA7E00278328 /* Bubble Orbit */ = {
+		95E88B222E8ECA7E00278328 /* BubbleOrbit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95E88B442E8ECA8000278328 /* Build configuration list for PBXNativeTarget "Bubble Orbit" */;
+			buildConfigurationList = 95E88B442E8ECA8000278328 /* Build configuration list for PBXNativeTarget "BubbleOrbit" */;
 			buildPhases = (
 				95E88B1F2E8ECA7E00278328 /* Sources */,
 				95E88B202E8ECA7E00278328 /* Frameworks */,
@@ -109,17 +115,18 @@
 			);
 			fileSystemSynchronizedGroups = (
 				95E88B252E8ECA7E00278328 /* Bubble Orbit */,
+				95E88B4D2E8ECA8B00278328 /* Main */,
 			);
-			name = "Bubble Orbit";
+			name = BubbleOrbit;
 			packageProductDependencies = (
 			);
 			productName = "Bubble Orbit";
-			productReference = 95E88B232E8ECA7E00278328 /* Bubble Orbit.app */;
+			productReference = 95E88B232E8ECA7E00278328 /* BubbleOrbit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		95E88B2F2E8ECA8000278328 /* Bubble OrbitTests */ = {
+		95E88B2F2E8ECA8000278328 /* BubbleOrbitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95E88B472E8ECA8000278328 /* Build configuration list for PBXNativeTarget "Bubble OrbitTests" */;
+			buildConfigurationList = 95E88B472E8ECA8000278328 /* Build configuration list for PBXNativeTarget "BubbleOrbitTests" */;
 			buildPhases = (
 				95E88B2C2E8ECA8000278328 /* Sources */,
 				95E88B2D2E8ECA8000278328 /* Frameworks */,
@@ -133,16 +140,16 @@
 			fileSystemSynchronizedGroups = (
 				95E88B332E8ECA8000278328 /* Bubble OrbitTests */,
 			);
-			name = "Bubble OrbitTests";
+			name = BubbleOrbitTests;
 			packageProductDependencies = (
 			);
 			productName = "Bubble OrbitTests";
-			productReference = 95E88B302E8ECA8000278328 /* Bubble OrbitTests.xctest */;
+			productReference = 95E88B302E8ECA8000278328 /* BubbleOrbitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		95E88B392E8ECA8000278328 /* Bubble OrbitUITests */ = {
+		95E88B392E8ECA8000278328 /* BubbleOrbitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95E88B4A2E8ECA8000278328 /* Build configuration list for PBXNativeTarget "Bubble OrbitUITests" */;
+			buildConfigurationList = 95E88B4A2E8ECA8000278328 /* Build configuration list for PBXNativeTarget "BubbleOrbitUITests" */;
 			buildPhases = (
 				95E88B362E8ECA8000278328 /* Sources */,
 				95E88B372E8ECA8000278328 /* Frameworks */,
@@ -156,11 +163,11 @@
 			fileSystemSynchronizedGroups = (
 				95E88B3D2E8ECA8000278328 /* Bubble OrbitUITests */,
 			);
-			name = "Bubble OrbitUITests";
+			name = BubbleOrbitUITests;
 			packageProductDependencies = (
 			);
 			productName = "Bubble OrbitUITests";
-			productReference = 95E88B3A2E8ECA8000278328 /* Bubble OrbitUITests.xctest */;
+			productReference = 95E88B3A2E8ECA8000278328 /* BubbleOrbitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 95E88B1E2E8ECA7E00278328 /* Build configuration list for PBXProject "Bubble Orbit" */;
+			buildConfigurationList = 95E88B1E2E8ECA7E00278328 /* Build configuration list for PBXProject "BubbleOrbit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +207,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95E88B222E8ECA7E00278328 /* Bubble Orbit */,
-				95E88B2F2E8ECA8000278328 /* Bubble OrbitTests */,
-				95E88B392E8ECA8000278328 /* Bubble OrbitUITests */,
+				95E88B222E8ECA7E00278328 /* BubbleOrbit */,
+				95E88B2F2E8ECA8000278328 /* BubbleOrbitTests */,
+				95E88B392E8ECA8000278328 /* BubbleOrbitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +265,12 @@
 /* Begin PBXTargetDependency section */
 		95E88B322E8ECA8000278328 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 95E88B222E8ECA7E00278328 /* Bubble Orbit */;
+			target = 95E88B222E8ECA7E00278328 /* BubbleOrbit */;
 			targetProxy = 95E88B312E8ECA8000278328 /* PBXContainerItemProxy */;
 		};
 		95E88B3C2E8ECA8000278328 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 95E88B222E8ECA7E00278328 /* Bubble Orbit */;
+			target = 95E88B222E8ECA7E00278328 /* BubbleOrbit */;
 			targetProxy = 95E88B3B2E8ECA8000278328 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,28 +404,34 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7X47AV9RN8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bubble Orbit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Bubble-Orbit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbittasks.BubbleOrbit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,28 +442,34 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7X47AV9RN8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bubble Orbit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Bubble-Orbit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbittasks.BubbleOrbit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -472,7 +491,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bubble Orbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bubble Orbit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleOrbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BubbleOrbit";
 			};
 			name = Debug;
 		};
@@ -494,7 +513,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bubble Orbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bubble Orbit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleOrbit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BubbleOrbit";
 			};
 			name = Release;
 		};
@@ -541,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95E88B1E2E8ECA7E00278328 /* Build configuration list for PBXProject "Bubble Orbit" */ = {
+		95E88B1E2E8ECA7E00278328 /* Build configuration list for PBXProject "BubbleOrbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95E88B422E8ECA8000278328 /* Debug */,
@@ -550,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95E88B442E8ECA8000278328 /* Build configuration list for PBXNativeTarget "Bubble Orbit" */ = {
+		95E88B442E8ECA8000278328 /* Build configuration list for PBXNativeTarget "BubbleOrbit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95E88B452E8ECA8000278328 /* Debug */,
@@ -559,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95E88B472E8ECA8000278328 /* Build configuration list for PBXNativeTarget "Bubble OrbitTests" */ = {
+		95E88B472E8ECA8000278328 /* Build configuration list for PBXNativeTarget "BubbleOrbitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95E88B482E8ECA8000278328 /* Debug */,
@@ -568,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95E88B4A2E8ECA8000278328 /* Build configuration list for PBXNativeTarget "Bubble OrbitUITests" */ = {
+		95E88B4A2E8ECA8000278328 /* Build configuration list for PBXNativeTarget "BubbleOrbitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95E88B4B2E8ECA8000278328 /* Debug */,

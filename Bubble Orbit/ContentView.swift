@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Bubble Orbit
-//
-//  Created by Stepan Yarikova on 2/10/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
