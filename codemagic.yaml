@@ -8,7 +8,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.eggkeeperapp.EggKeeper
+        bundle_identifier: com.orbittasks.BubbleOrbit
       vars:
         APP_STORE_CONNECT_KEY: bubbleorbit_app
         APP_STORE_APPLE_ID: 6753625247
